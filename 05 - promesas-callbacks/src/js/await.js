@@ -39,7 +39,7 @@ export const heroesCiclo = async() => {
 }
 
 export const heroeIfAwait = async(id) => {
-    if ((await buscarHeroeAsync(id)).nombre === 'Ironman') {
+    if ((await buscarHeroeAsync(id)).no === 'Ironman') {
         console.log('Es el mejor de todos');
     } else {
         console.log('Naaa');
