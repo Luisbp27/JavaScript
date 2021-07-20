@@ -1,4 +1,5 @@
-import { saludar } from './js/componentes';
-import './styles.css';
 
-saludar();
+import { init } from './js/archivos-page';
+
+init();
+
